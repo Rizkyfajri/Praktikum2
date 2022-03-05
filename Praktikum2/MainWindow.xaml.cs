@@ -24,10 +24,78 @@ namespace Praktikum2
         {
             InitializeComponent();
         }
-
+        //operators
         private void ButtonTambah_Click(object sender, RoutedEventArgs e)
         {
-
+            Button b = (Button)sender;
+            textBox1.Text = b.Content.ToString();
         }
+        private void buttonHasil_Click(object sender, RoutedEventArgs e)
+        {
+            Button b = (Button)sender;
+            textBox1.Text = b.Content.ToString();
+        }
+        //angka
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            Button b = (Button)sender;
+            textBox1.Text = b.Content.ToString();
+        }
+        private void button2_Click(object sender, RoutedEventArgs e)
+        {
+            Button b = (Button)sender;
+            textBox1.Text = b.Content.ToString();
+        }
+
+        private void button3_Click(object sender, RoutedEventArgs e)
+        {
+            Button b = (Button)sender;
+            textBox1.Text = b.Content.ToString();
+        }
+
+        private void button4_Click(object sender, RoutedEventArgs e)
+        {
+            Button b = (Button)sender;
+            textBox1.Text = b.Content.ToString();
+        }
+
+        private void button5_Click(object sender, RoutedEventArgs e)
+        {
+            Button b = (Button)sender;
+            textBox1.Text = b.Content.ToString();
+        }
+
+        private void button6_Click(object sender, RoutedEventArgs e)
+        {
+            Button b = (Button)sender;
+            textBox1.Text = b.Content.ToString();
+        }
+
+        private void button7_Click(object sender, RoutedEventArgs e)
+        {
+            Button b = (Button)sender;
+            textBox1.Text = b.Content.ToString();
+        }
+
+        private void button8_Click(object sender, RoutedEventArgs e)
+        {
+            Button b = (Button)sender;
+            textBox1.Text = b.Content.ToString();
+        }
+
+        private void button9_Click(object sender, RoutedEventArgs e)
+        {
+            Button b = (Button)sender;
+            textBox1.Text = b.Content.ToString();
+        }
+
+        private void button0_Click(object sender, RoutedEventArgs e)
+        {
+            Button b = (Button)sender;
+            textBox1.Text = b.Content.ToString();
+        }
+
+
     }
 }
