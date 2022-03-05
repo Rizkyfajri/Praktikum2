@@ -6,20 +6,20 @@
         xmlns:local="clr-namespace:Praktikum2"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="403">
-    <Grid>
-        <TextBox x:Name="textBox1" HorizontalAlignment="Center" Margin="0,97,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+    <Grid HorizontalAlignment="Right" Width="403">
+        <TextBox x:Name="textBox1" HorizontalAlignment="Center" Margin="0,97,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Button x:Name="button1" Content="1" HorizontalAlignment="Left" Margin="137,141,0,0" VerticalAlignment="Top" Width="40" Command="{Binding ElementName=button3, Mode=OneWay}" Click="button1_Click"/>
         <Button x:Name="button2" Content="2" HorizontalAlignment="Center" Margin="0,141,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.11,0.453" Width="40" Click="button2_Click"/>
-        <Button x:Name="button3" Content="3" HorizontalAlignment="Left" Margin="236,141,0,0" VerticalAlignment="Top" Width="40" Click="button3_Click"/>
+        <Button x:Name="button3" Content="3" HorizontalAlignment="Left" Margin="226,141,0,0" VerticalAlignment="Top" Width="40" Click="button3_Click"/>
         <Button x:Name="button4" Content="4" HorizontalAlignment="Left" Margin="137,176,0,0" VerticalAlignment="Top" Width="40" Click="button4_Click"/>
         <Button x:Name="button5" Content="5" HorizontalAlignment="Center" Margin="0,176,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.11,0.453" Width="40" Click="button5_Click"/>
-        <Button x:Name="button6" Content="6" HorizontalAlignment="Left" Margin="236,176,0,0" VerticalAlignment="Top" Width="40" Click="button6_Click"/>
+        <Button x:Name="button6" Content="6" HorizontalAlignment="Left" Margin="226,176,0,0" VerticalAlignment="Top" Width="40" Click="button6_Click"/>
         <Button x:Name="button7" Content="7" HorizontalAlignment="Left" Margin="137,217,0,0" VerticalAlignment="Top" Width="40" Click="button7_Click"/>
         <Button x:Name="button8" Content="8" HorizontalAlignment="Center" Margin="0,217,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.11,0.453" Width="40" Click="button8_Click"/>
-        <Button x:Name="button9" Content="9" HorizontalAlignment="Left" Margin="236,217,0,0" VerticalAlignment="Top" Width="40" Click="button9_Click"/>
+        <Button x:Name="button9" Content="9" HorizontalAlignment="Left" Margin="226,217,0,0" VerticalAlignment="Top" Width="40" Click="button9_Click"/>
         <Button x:Name="buttonTambah" Content="+" HorizontalAlignment="Left" Margin="137,255,0,0" VerticalAlignment="Top" Click="ButtonTambah_Click" Width="40"/>
         <Button x:Name="button0" Content="0" HorizontalAlignment="Center" Margin="0,255,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.11,0.453" Width="39" Click="button0_Click"/>
-        <Button x:Name="buttonHasil" Content="=" HorizontalAlignment="Left" Margin="236,255,0,0" VerticalAlignment="Top" Width="40"/>
+        <Button x:Name="buttonHasil" Content="=" HorizontalAlignment="Left" Margin="226,255,0,0" VerticalAlignment="Top" Width="40"/>
         <Label x:Name="Label" Content="Kalkulator" HorizontalAlignment="Left" Margin="182,48,0,0" VerticalAlignment="Top"/>
 
     </Grid>
