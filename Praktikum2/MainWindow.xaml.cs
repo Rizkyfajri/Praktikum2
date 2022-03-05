@@ -20,6 +20,8 @@ namespace Praktikum2
     /// </summary>
     public partial class MainWindow : Window
     {
+        int val1;
+        int val2;  
         public MainWindow()
         {
             InitializeComponent();
@@ -27,12 +29,16 @@ namespace Praktikum2
         //operators
         private void ButtonTambah_Click(object sender, RoutedEventArgs e)
         {
-            Button b = (Button)sender;
-            textBox1.Text += b.Content.ToString();
+            this.val1 = int.Parse(textBox1.Text);
+            textBox1.Text = "";
         }
-        private void buttonHasil_Click(object sender, RoutedEventArgs e)
+        private void buttonHasil_Click_1(object sender, RoutedEventArgs e)
         {
-                
+            this.val2 = int.Parse(textBox1.Text);
+            int hasil = val1 + val2;
+            textBox1.Text = "";
+            textBox1.Text = hasil.ToString();
+            Console.WriteLine(hasil.ToString());
         }
         //angka
 

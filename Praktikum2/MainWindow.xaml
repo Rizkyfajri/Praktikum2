@@ -19,7 +19,7 @@
         <Button x:Name="button9" Content="9" HorizontalAlignment="Left" Margin="226,217,0,0" VerticalAlignment="Top" Width="40" Click="button9_Click"/>
         <Button x:Name="buttonTambah" Content="+" HorizontalAlignment="Left" Margin="318,146,0,0" VerticalAlignment="Top" Click="ButtonTambah_Click" Width="40"/>
         <Button x:Name="button0" Content="0" HorizontalAlignment="Center" Margin="0,255,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.11,0.453" Width="39" Click="button0_Click"/>
-        <Button x:Name="buttonHasil" Content="=" HorizontalAlignment="Left" Margin="318,186,0,0" VerticalAlignment="Top" Width="40"/>
+        <Button x:Name="buttonHasil" Content="=" HorizontalAlignment="Left" Margin="318,186,0,0" VerticalAlignment="Top" Width="40" Click="buttonHasil_Click_1"/>
         <Label x:Name="Label" Content="Kalkulator" HorizontalAlignment="Left" Margin="182,48,0,0" VerticalAlignment="Top"/>
 
     </Grid>
